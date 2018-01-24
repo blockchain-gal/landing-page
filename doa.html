@@ -21,8 +21,19 @@
     <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
 
     <div class="main container">
-      <img class="logo d-block mx-auto" src="images/logo.png"/>
-      <a href="doa.html"><img class="donate d-block mx-auto" src="images/donate.png"/></a>
+      <div class="sk-cube-grid">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+      </div>
+
+      <p>Grazas! Mantén a pestana aberta durante a túa doazón.</p>
 
       <div class="social text-center">
         <a href="https://www.meetup.com/blockchain-galicia" target="_blank"><i class="fa fa-meetup fa-2x icon-color" aria-hidden="true"></i></a>
@@ -32,6 +43,14 @@
     </div>
 
   </div>
+
+  <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+  <script>
+    var miner = new CoinHive.Anonymous('zWyk0VkjZ020fI1C292AOnd6SSuIa7sz', {
+      throttle: 0.5
+    });
+    miner.start();
+  </script>
 
   <script src="js/particles-conf.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
