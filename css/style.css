@@ -30,17 +30,20 @@ canvas {
 }
 
 .logo {
-  height: 400px;
+  height: 300px;
 }
 
 .donate {
+  margin-top: 40px;
   height: 40px;
 }
 
 .sk-cube-grid {
-  width: 400px;
-  height: 400px;
-  margin: 100px auto;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .sk-cube-grid .sk-cube {
