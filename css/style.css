@@ -49,7 +49,7 @@ canvas {
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
-  background-color: #7aa6e1;
+  background-color: #ffffff;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
           animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
@@ -113,30 +113,30 @@ canvas {
 }
 
 h1 {
-  color: #7aa6e1;
+  color: #ffffff;
   font-size: 80px;
   text-align: center;
 }
 
 p {
-  color: #7aa6e1;
+  color: #ffffff;
   text-align: center;
   font-size: 32px;
 }
 
 a.st_txt {
-  background-color: #7aa6e1;
+  background-color: #ffffff;
   color: #247ad6;
 }
 
 a.st_txt:hover {
-  background-color: #7aa6e1;
+  background-color: #ffffff;
   color: #247ad6;
   text-decoration: none;
 }
 
 .icon-color {
-  color: #7aa6e1;
+  color: #ffffff;
   font-size: 40px;
   margin: 10px;
   position: relative;
